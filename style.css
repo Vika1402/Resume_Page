@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+}
+.main {
+  padding: 20px;
+  border: 2px solid black;
+  width: 70%;
+  height: 90vh;
+  margin-top: 20px;
+  display: flex;
+}
+.main .m1 {
+  background-color: rgb(28, 25, 25);
+  width: 36%;
+  display: flex;
+  flex-direction: column;
+}
+.main .m1 .profile_picture .icon_div {
+  font-size: 15px;
+  display: flex;
+  gap: 5px;
+  margin-top: 5px;
+}
+.main .m1 .profile_picture h3,
+h4 {
+  margin-top: 4px;
+}
+.main .m1 .profile_picture {
+  height: 26%;
+  background-color: rgb(40, 40, 145);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+.main .m1 .profile_picture .profile_image {
+  width: 50%;
+  height: 50%;
+}
+.main .m1 .profile_picture .profile_image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.main .m1 .profile_deatils .contact {
+  padding-left: 20px;
+  margin-top: 10px;
+}
+.main .m1 .profile_deatils {
+  color: white;
+  margin-left: 15px;
+  margin-top: 30px;
+  font-size: 14px;
+}
+.main .m1 .profile_deatils .skill_p .skill_major {
+  width: 80%;
+  background-color: aliceblue;
+  height: 4px;
+  background-color: white;
+  border-radius: 30px;
+}
+
+.main .m1 .profile_deatils .skill_p .skill_major .skill_major2 {
+  width: 70%;
+  background-color: blue;
+  height: 100%;
+}
+.main .m1 .profile_deatils .skill_p .skillslist {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  padding-left: 20px;
+  margin-top: 20px;
+}
+
+.main .m1 .profile_deatils #skills {
+  margin-top: 25px;
+}
+.main .m1 .profile_deatils .certificate {
+  margin-top: 20px;
+}
+.main .m1 .profile_deatils .certificate .certificate_list ul li {
+  list-style-type: none;
+}
+.main .m1 .profile_deatils .certificate .certificate_list {
+  margin-top: 20px;
+  padding-left: 20px;
+}
